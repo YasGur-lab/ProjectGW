@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec8b2682fe808844830914f1083bee4, type: 3}
+  m_Name: Bow_AutoAttack
+  m_EditorClassIdentifier: 
+  m_Player: {fileID: 0}
+  m_Skill: 17
+  m_Icon: {fileID: 0}
+  m_Attribute: 3
+  m_SkillType: 2
+  m_Stat: 6
+  m_Description: Skill description.
+  m_Range: 14
+  m_CooldownTime: 2
+  m_ActiveTime: 0
+  m_CastTime: 2
+  m_TimeBeforeCasting: 0
+  m_EnergyCost: 0
+  m_GroundTarget: 1
+  m_VisualShape: 0
+  m_Radius: 0
+  m_SpreadAngle: 0
+  m_RequiresTarget: 0
+  skillAnimation: {fileID: 7400000, guid: c32a46b6076b90c47895696cc0c25743, type: 2}
+  m_FullBodyAnimation: 0
+  m_SkillController: {fileID: 0}
+  m_Effects: []
+  m_IsASupportiveSkill: 0
+  m_HealthThresholds: 0
+  m_CanSelfTarget: 0
+  m_Arrow: {fileID: 1481244868773408, guid: 2673542c7c2e86e4e92c9f8707db9cb5, type: 3}

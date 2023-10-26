@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd17de74fb62e046b31df98a0ff0082, type: 3}
+  m_Name: Firestorm
+  m_EditorClassIdentifier: 
+  m_Player: {fileID: 919132149155446097, guid: d4cfe4151164ccf47839aff5ca4a958e, type: 3}
+  m_Skill: 5
+  m_Icon: {fileID: 21300000, guid: 35f6eef473310414aaddd67518c76f03, type: 3}
+  m_Attribute: 4
+  m_SkillType: 0
+  m_Stat: 6
+  m_Description: Create a firestorm at your target's position that deals {0} fire
+    damage per second for 5 seconds.
+  m_Range: 12
+  m_Radius: 5
+  m_CooldownTime: 20
+  m_ActiveTime: 0
+  m_CastTime: 4
+  m_TimeBeforeCasting: 0
+  m_EnergyCost: 10
+  m_GroundTarget: 1
+  m_RequiresTarget: 0
+  skillAnimation: {fileID: 7400000, guid: c6ddf939825a104409b818aecb4a8f43, type: 2}
+  m_FullBodyAnimation: 1
+  m_SkillController: {fileID: 0}
+  m_Effects: []
+  m_IsASupportiveSkill: 0
+  m_HealthThresholds: 0
+  m_CanSelfTarget: 1
+  m_Firestorm: {fileID: 108140492284434449, guid: e18eedb328e36ed4d9f15f1ba2e385c2, type: 3}

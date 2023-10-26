@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6f05b5041555e04d980c93759d826e0, type: 3}
+  m_Name: Monk
+  m_EditorClassIdentifier: 
+  skills:
+  - {fileID: 11400000, guid: ba5001e6991c2ae4780dd5d182695766, type: 2}
+  - {fileID: 11400000, guid: 9030f067704d0324db9570185ea08553, type: 2}
+  - {fileID: 11400000, guid: b64b0e9e5b37b1a459ff34959fbb8ac7, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

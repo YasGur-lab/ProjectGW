@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c95030f356d3884688d3c6f3e76f220, type: 3}
+  m_Name: FireStaff_AutoAttack
+  m_EditorClassIdentifier: 
+  m_Player: {fileID: 0}
+  m_Skill: 18
+  m_Icon: {fileID: 0}
+  m_Attribute: 4
+  m_SkillType: 2
+  m_Stat: 6
+  m_Description: Skill description.
+  m_Range: 12
+  m_CooldownTime: 1
+  m_ActiveTime: 0
+  m_CastTime: 1
+  m_TimeBeforeCasting: 0
+  m_EnergyCost: 0
+  m_GroundTarget: 0
+  m_VisualShape: 0
+  m_Radius: 0
+  m_SpreadAngle: 0
+  m_RequiresTarget: 0
+  skillAnimation: {fileID: 7400000, guid: 8ff700ce572f1f24fbe4f4964b1f4696, type: 2}
+  m_FullBodyAnimation: 1
+  m_SkillController: {fileID: 0}
+  m_Effects: []
+  m_IsASupportiveSkill: 0
+  m_HealthThresholds: 0
+  m_CanSelfTarget: 1
+  m_StaffProjectile: {fileID: 1294834399362254, guid: 0ce5369e9caf667489674f1429755e0d, type: 3}

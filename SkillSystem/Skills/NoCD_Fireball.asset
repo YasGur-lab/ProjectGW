@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbb8709445c5694fb3d49cefe959b8b, type: 3}
+  m_Name: NoCD_Fireball
+  m_EditorClassIdentifier: 
+  m_Player: {fileID: 919132149155446097, guid: d4cfe4151164ccf47839aff5ca4a958e, type: 3}
+  m_Skill: 1
+  m_Icon: {fileID: 0}
+  m_Attribute: 4
+  m_SkillType: 0
+  m_Stat: 6
+  m_Description: Send out a fireball that strikes target foe for X fire damage if
+    it hits.
+  m_Range: 0
+  m_CooldownTime: 0
+  m_ActiveTime: 0
+  m_CastTime: 1
+  m_TimeBeforeCasting: 0
+  m_EnergyCost: 5
+  m_RequiresTarget: 0
+  skillAnimation: {fileID: 0}
+  m_FullBodyAnimation: 0
+  m_SkillController: {fileID: 0}
+  m_Effects: []
+  m_Fireball: {fileID: 1032096471364102, guid: 084af1218a1e0ee41a43bdf9d52aea29, type: 3}

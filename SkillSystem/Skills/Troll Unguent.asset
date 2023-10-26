@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadd6de3779d1eb4a968ff8cf9fee6ab, type: 3}
+  m_Name: Troll Unguent
+  m_EditorClassIdentifier: 
+  m_Player: {fileID: 0}
+  m_Skill: 10
+  m_Icon: {fileID: 21300000, guid: c1e4a5e58866d094eb64b9a54229840b, type: 3}
+  m_Attribute: 2
+  m_SkillType: 3
+  m_Stat: 
+  m_Description: 'For 13 seconds, you gain +{0} Health regeneration. '
+  m_Range: 0
+  m_CooldownTime: 10
+  m_ActiveTime: 13
+  m_CastTime: 3
+  m_TimeBeforeCasting: 0
+  m_EnergyCost: 5
+  m_GroundTarget: 0
+  m_VisualShape: 0
+  m_Radius: 0
+  m_SpreadAngle: 0
+  m_RequiresTarget: 0
+  skillAnimation: {fileID: 7400000, guid: e60014717be7dc54c9241a36e9ca345e, type: 2}
+  m_FullBodyAnimation: 0
+  m_SkillController: {fileID: 0}
+  m_Effects:
+  - {fileID: 11400000, guid: 017a05acf7c06764f9945e2a35d2d324, type: 2}
+  m_IsASupportiveSkill: 1
+  m_HealthThresholds: 1
+  m_CanSelfTarget: 1

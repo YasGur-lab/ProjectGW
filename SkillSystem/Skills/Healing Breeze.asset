@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6610c809790405241a191f595138665e, type: 3}
+  m_Name: Healing Breeze
+  m_EditorClassIdentifier: 
+  m_Player: {fileID: 0}
+  m_Skill: 13
+  m_Icon: {fileID: 21300000, guid: aab0ed447e08a4c469bbb18df1951c22, type: 3}
+  m_Attribute: 6
+  m_SkillType: 1
+  m_Stat: 7
+  m_Description: 'For 15 seconds, target ally gains +{0} Health regeneration. '
+  m_Range: 12
+  m_Radius: 0
+  m_CooldownTime: 5
+  m_ActiveTime: 15
+  m_CastTime: 1
+  m_TimeBeforeCasting: 0
+  m_EnergyCost: 10
+  m_GroundTarget: 0
+  m_VisualShape: 0
+  m_SpreadAngle: 0
+  m_RequiresTarget: 0
+  skillAnimation: {fileID: 7400000, guid: 060cd5b6719a589408c23aa638e72cb5, type: 2}
+  m_FullBodyAnimation: 0
+  m_SkillController: {fileID: 0}
+  m_Effects:
+  - {fileID: 11400000, guid: 017a05acf7c06764f9945e2a35d2d324, type: 2}
+  m_IsASupportiveSkill: 1
+  m_HealthThresholds: 1
+  m_CanSelfTarget: 1
+  m_HealingEffect: {fileID: 9017484664307500583, guid: 31e278cff3205764f8dae7aa21d2c71e, type: 3}

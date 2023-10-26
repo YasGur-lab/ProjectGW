@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4417992415311208343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5134d9de14153468b48928d3e7359a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 79c0dd3ceb908de43b35d97f60181415
+  position: {x: 98.52081, y: 122.99995}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    m_PotentialTargets: []
+    m_PotentialAllyTargets: []
+    m_AlliesInNeed: []
+    m_ClosestTarget: {fileID: 0}
+    m_Requested: 0
+    m_CanOverlapSphere: 1
+    m_CanDetectTargets: 1
+  description: 
+  drawGizmos: 0
+  duration: 1
+--- !u!114 &-4245152381751857710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5134d9de14153468b48928d3e7359a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fe8f0721e21ecbf479b8ae9ea87760b8
+  position: {x: 203.20876, y: 31.3678}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    m_PotentialTargets: []
+    m_PotentialAllyTargets: []
+    m_AlliesInNeed: []
+    m_ClosestTarget: {fileID: 0}
+    m_Requested: 0
+    m_CanOverlapSphere: 1
+    m_CanDetectTargets: 1
+  description: 
+  drawGizmos: 0
+  duration: 1
+--- !u!114 &-3488502672597813877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163c147d123e4a945b688eddc64e3ea5, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: cc31b288d957193468f158efe1521bba
+  position: {x: -21.00012, y: -555.02203}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    m_PotentialTargets: []
+    m_PotentialAllyTargets: []
+    m_AlliesInNeed: []
+    m_ClosestTarget: {fileID: 0}
+    m_Requested: 0
+    m_CanOverlapSphere: 0
+    m_CanDetectTargets: 0
+  description: 
+  drawGizmos: 0
+  child: {fileID: -3088543794039604006}
+--- !u!114 &-3088543794039604006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb5496e8cd973748a10b3e3ef436ebd, type: 3}
+  m_Name: Repeat
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: a642683d4ee70e047ba5612eb2b09485
+  position: {x: -21.00019, y: -431.2501}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    m_PotentialTargets: []
+    m_PotentialAllyTargets: []
+    m_AlliesInNeed: []
+    m_ClosestTarget: {fileID: 0}
+    m_Requested: 0
+    m_CanOverlapSphere: 0
+    m_CanDetectTargets: 0
+  description: 
+  drawGizmos: 0
+  child: {fileID: 3199275602275991778}
+  restartOnSuccess: 1
+  restartOnFailure: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d285eb63c2cdd74180de7cfceaa96ad, type: 3}
+  m_Name: AI
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -3488502672597813877}
+  treeState: 0
+  nodes:
+  - {fileID: -3488502672597813877}
+  - {fileID: 3199275602275991778}
+  - {fileID: 7734558666765234906}
+  - {fileID: 1338515430967988492}
+  - {fileID: 6259226182019370869}
+  - {fileID: 2577650370109877287}
+  - {fileID: -3088543794039604006}
+  - {fileID: 0}
+  - {fileID: -4245152381751857710}
+  - {fileID: -4417992415311208343}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    m_PotentialTargets: []
+    m_PotentialAllyTargets: []
+    m_AlliesInNeed: []
+    m_ClosestTarget: {fileID: 0}
+    m_Requested: 0
+    m_CanOverlapSphere: 0
+    m_CanDetectTargets: 0
+--- !u!114 &1338515430967988492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb5496e8cd973748a10b3e3ef436ebd, type: 3}
+  m_Name: Repeat
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e7c1c801facad464289edf6b6ebe6eea
+  position: {x: -34.119995, y: -161}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    m_PotentialTargets: []
+    m_PotentialAllyTargets: []
+    m_AlliesInNeed: []
+    m_ClosestTarget: {fileID: 0}
+    m_Requested: 0
+    m_CanOverlapSphere: 0
+    m_CanDetectTargets: 0
+  description: 
+  drawGizmos: 0
+  child: {fileID: 6259226182019370869}
+  restartOnSuccess: 1
+  restartOnFailure: 0
+--- !u!114 &2577650370109877287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40456c033dd2de41aa6b8195970ffca, type: 3}
+  m_Name: Detect_Targets_Action
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 27a515df2d1faa84a8243367b6ce668e
+  position: {x: -175.74567, y: 123.063736}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    m_PotentialTargets: []
+    m_PotentialAllyTargets: []
+    m_AlliesInNeed: []
+    m_ClosestTarget: {fileID: 0}
+    m_Requested: 0
+    m_CanOverlapSphere: 0
+    m_CanDetectTargets: 0
+  description: 
+  drawGizmos: 0
+  m_Transform: {fileID: 0}
+  m_MinimumAggroRange: 0
+  m_Fighter: {fileID: 0}
+  m_DetectionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  m_EnemyTags: []
+  m_AllyTags: []
+  m_SkillAnimationController: {fileID: 0}
+  m_Target: {fileID: 0}
+--- !u!114 &3199275602275991778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 8c3c0cb61f40ab64288042c649fab6c1
+  position: {x: -21, y: -292}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    m_PotentialTargets: []
+    m_PotentialAllyTargets: []
+    m_AlliesInNeed: []
+    m_ClosestTarget: {fileID: 0}
+    m_Requested: 0
+    m_CanOverlapSphere: 0
+    m_CanDetectTargets: 0
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 7734558666765234906}
+  - {fileID: 7734558666765234906}
+  - {fileID: 7734558666765234906}
+  - {fileID: 1338515430967988492}
+  - {fileID: 1338515430967988492}
+  - {fileID: 1338515430967988492}
+--- !u!114 &6259226182019370869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 91c7c44a0da8d6844b38c0ecb8299114
+  position: {x: -34, y: -61}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    m_PotentialTargets: []
+    m_PotentialAllyTargets: []
+    m_AlliesInNeed: []
+    m_ClosestTarget: {fileID: 0}
+    m_Requested: 0
+    m_CanOverlapSphere: 0
+    m_CanDetectTargets: 0
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 2577650370109877287}
+  - {fileID: 2577650370109877287}
+  - {fileID: 2577650370109877287}
+  - {fileID: 0}
+  - {fileID: -4417992415311208343}
+  - {fileID: -4245152381751857710}
+--- !u!114 &7734558666765234906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a50b037712ff64c8b50507d9201561, type: 3}
+  m_Name: Remove_Target_Action
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 9f865983a6afd624db8ba8a66fdc4338
+  position: {x: -221, y: -161}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    m_PotentialTargets: []
+    m_PotentialAllyTargets: []
+    m_AlliesInNeed: []
+    m_ClosestTarget: {fileID: 0}
+    m_Requested: 0
+    m_CanOverlapSphere: 0
+    m_CanDetectTargets: 0
+  description: 
+  drawGizmos: 0
+  m_Transform: {fileID: 0}
+  m_MaxDistance: 0
+  m_DetectionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  m_EnemyTags: []
+  m_AllyTags: []
+  m_SkillAnimationController: {fileID: 0}
+  m_Target: {fileID: 0}

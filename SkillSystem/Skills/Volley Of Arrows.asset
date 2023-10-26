@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b307c5bed482e64db552422776e2194, type: 3}
+  m_Name: Volley Of Arrows
+  m_EditorClassIdentifier: 
+  m_Player: {fileID: 0}
+  m_Skill: 8
+  m_Icon: {fileID: 21300000, guid: 0c42d10532940c74694c7eb2460b52ae, type: 3}
+  m_Attribute: 3
+  m_SkillType: 2
+  m_Stat: 6
+  m_Description: eals {0} damage. Hits up to 5 foes adjacent to your target.
+  m_Range: 14
+  m_CooldownTime: 5
+  m_ActiveTime: 0
+  m_CastTime: 2
+  m_TimeBeforeCasting: 0
+  m_EnergyCost: 15
+  m_GroundTarget: 1
+  m_VisualShape: 1
+  m_Radius: 14
+  m_SpreadAngle: 30
+  m_RequiresTarget: 0
+  skillAnimation: {fileID: 7400000, guid: 6b3d531a5d7514d41b719b302efbcee9, type: 2}
+  m_FullBodyAnimation: 0
+  m_SkillController: {fileID: 0}
+  m_Effects: []
+  m_IsASupportiveSkill: 0
+  m_HealthThresholds: 0
+  m_CanSelfTarget: 1
+  m_Arrow: {fileID: 1481244868773408, guid: 4cd7dde3580b9214fb8372a0c35d8592, type: 3}
+  m_NumFireballs: 5
+  m_SpawnRadius: 1
